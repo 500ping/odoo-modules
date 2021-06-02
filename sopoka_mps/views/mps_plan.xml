@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record id="mps_plan_action" model="ir.actions.act_window">
+            <field name="name">MPS Plans</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">mps.plan</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create a new plan
+                </p>
+            </field>
+        </record>
+
+        <menuitem
+            id="mrp_mps_plan_menu"
+            name="Production Plan"
+            action="mps_plan_action"
+            sequence="-1"
+            parent="mrp_mps.mrp_mps_menu_planning"/>
+
+    </data>
+</odoo>

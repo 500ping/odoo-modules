@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mps_plan_user,Access MPS Plan For User,model_mps_plan,base.group_user,1,1,1,1
+access_mps_plan_line_user,Access MPS Plan Line For User,model_mps_plan_line,base.group_user,1,1,1,1
+access_select_mps_plan_user,Access Select MPS Plan For User,model_select_mps_plan,base.group_user,1,1,1,1

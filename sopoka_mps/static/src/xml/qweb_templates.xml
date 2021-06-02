@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="mrp_mps_control_panel_buttons" t-inherit="mrp_mps.mrp_mps_control_panel_buttons" t-inherit-mode="primary">
+        <xpath expr="//button[hasclass('o_mrp_mps_create')]" position="after">
+            <button type="button" class='btn btn-secondary o_mrp_mps_select_plan'>Select Plan</button>
+        </xpath>
+    </t>
+
+</templates>
